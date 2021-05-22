@@ -1,4 +1,11 @@
 module.exports = (templateData) => {
+  /* example employee data from User()
+  [
+  Manager { name: 'test', id: 'test', email: 'test', officeNumber: 'test' },
+  Engineer { name: 'test', id: 'test', email: 'test', github: 'test' },
+  Intern { name: 'test', id: 'test', email: 'test', school: 'test' }
+]
+  */
   const {} = templateData;
 
   return `
